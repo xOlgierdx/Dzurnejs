@@ -21,7 +21,6 @@ const cards = [
         subCards: [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
-            { name: "Rzadka karta 2", image: "images/K.jpg" },
             //DC
             { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" }
         ]
