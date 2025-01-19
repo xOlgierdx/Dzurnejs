@@ -7,7 +7,11 @@ const cards = [
             //MARVEL
             { name: "MARCIN STARK", image: "images/Mstark.jpg" },
             { name: "CZARNY WDOWIEC", image: "images/Swdowa.jpg" },
-            { name: "MS. PLONEK", image: "images/Pmarvel.jpg" }
+            { name: "MS. PLONEK", image: "images/Pmarvel.jpg" },
+            //DC
+            { name: "POBIN", image: "images/Ppobin.jpg" },
+            { name: "HARLEY CZOP", image: "images/Mharley.jpg" },
+            { name: "CZOPER", image: "images/Mjoker.jpg" }
         ]
     },
     { 
@@ -17,7 +21,9 @@ const cards = [
         subCards: [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
-            { name: "Rzadka karta 2", image: "images/K.jpg" }
+            { name: "Rzadka karta 2", image: "images/K.jpg" },
+            //DC
+            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" }
         ]
     },
     { 
@@ -27,7 +33,9 @@ const cards = [
         subCards: [
             //MARVEL
             { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
-            { name: "SCARLET WITCH", image: "images/Owanda.jpg" }
+            { name: "SCARLET WITCH", image: "images/Owanda.jpg" },
+            //DC
+            { name: "FATBAT & POBIN", image: "images/MPbr.jpg" }
         ]
     },
     { 
