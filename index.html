@@ -7,30 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="loginForm">
-    <h2>Proszę podać hasło</h2>
-    <input type="password" id="password" placeholder="Hasło">
-    <button onclick="checkPassword()">password</button>
-</div>
-
-<div id="content" style="display:none;">
-    <h1>Witaj na stronie!</h1>
-    <p>Treść strony widoczna tylko dla osób, które znają hasło.</p>
-</div>
-
-<script>
-    function checkPassword() {
-        const password = document.getElementById("password").value;
-        const correctPassword = "czop"; 
-        
-        if (password === correctPassword) {
-            document.getElementById("loginForm").style.display = "none";
-            document.getElementById("content").style.display = "block";
-        } else {
-            alert("Niepoprawne hasło!");
-        }
-    }
-</script>
   <div id="app">
     <h1>Otwórz Skrzynkę!</h1>
     <div id="result"></div>
