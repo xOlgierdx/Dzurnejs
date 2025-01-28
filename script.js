@@ -11,7 +11,9 @@ const cards = [
             //DC
             { name: "POBIN", image: "images/Ppobin.jpg" },
             { name: "HARLEY CZOP", image: "images/Mharley.jpg" },
-            { name: "CZOPER", image: "images/Mjoker.jpg" }
+            { name: "CZOPER", image: "images/Mjoker.jpg" },
+            //GOW
+            { name: "IRYTUJĄCY ŁEB", image: "images/Pmimir.jpg" }
         ]
     },
     { 
@@ -22,7 +24,11 @@ const cards = [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
             //DC
-            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" }
+            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" },
+            //GOW
+            { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
+            { name: "BALDUR", image: "images/Obal.jpg" },
+            { name: "ATREUSEK", image: "images/Satr.jpg" }
         ]
     },
     { 
@@ -45,7 +51,9 @@ const cards = [
             //MARVEL
             { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
             //DC
-            { name: "FATBAT", image: "images/Mfatbat.jpg" }
+            { name: "FATBAT", image: "images/Mfatbat.jpg" },
+            //GOW
+            { name: "GOD OF HUNGER", image: "images/Mgoh.jpg" }
         ]
     }
 ];
