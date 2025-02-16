@@ -13,7 +13,9 @@ const cards = [
             { name: "HARLEY CZOP", image: "images/Mharley.jpg" },
             { name: "CZOPER", image: "images/Mjoker.jpg" },
             //GOW
-            { name: "IRYTUJĄCY ŁEB", image: "images/Pmimir.jpg" }
+            { name: "IRYTUJĄCY ŁEB", image: "images/Pmimir.jpg" },
+            //WIEDŹMIN
+            { name: "UMA", image: "images/Suma.jpg" }
         ]
     },
     { 
@@ -40,7 +42,9 @@ const cards = [
             { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
             { name: "SCARLET WITCH", image: "images/Owanda.jpg" },
             //DC
-            { name: "FATBAT & POBIN", image: "images/MPbr.jpg" }
+            { name: "FATBAT & POBIN", image: "images/MPbr.jpg" },
+            //WIEDŻMIN
+            { name: "LAMBERT I ESKEL", image: "images/KSlamesk.jpg" }
         ]
     },
     { 
@@ -53,7 +57,10 @@ const cards = [
             //DC
             { name: "FATBAT", image: "images/Mfatbat.jpg" },
             //GOW
-            { name: "GOD OF HUNGER", image: "images/Mgoh.jpg" }
+            { name: "GOD OF HUNGER", image: "images/Mgoh.jpg" },
+            //WIEDŻMIN
+            { name: "OLGIERD", image: "images/Olgierd.jpg" },
+            { name: "CZOP Z WIEJSKIEJ", image: "images/Mgeralt.jpg" }
         ]
     }
 ];
