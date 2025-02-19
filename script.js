@@ -26,7 +26,7 @@ const cards = [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
             //DC
-        
+            { name: "PAŃSTWO CZOP", image: "images/Mjh.jpg" },
             //GOW
             { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
             { name: "BALDUR", image: "images/Obal.jpg" },
