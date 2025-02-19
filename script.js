@@ -68,7 +68,7 @@ const cards = [
 let playerCollection = []; 
 let currentUser = null;
 let openCount = 0;
-const MAX_OPENS = 500;
+const MAX_OPENS = 6;
 
 function openBox() {
     const random = Math.random() * 100;
