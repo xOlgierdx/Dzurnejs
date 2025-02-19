@@ -26,7 +26,7 @@ const cards = [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
             //DC
-            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" },
+            { name: "PAŃSTWO CZOP", image: "images/Mjh.jpg" },
             //GOW
             { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
             { name: "BALDUR", image: "images/Obal.jpg" },
@@ -53,7 +53,7 @@ const cards = [
         chance: 5, 
         subCards: [
             //MARVEL
-            { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
+            { name: "BEST DUO", image: "images/OKws.jpg" },
             //DC
             { name: "FATBAT", image: "images/Mfatbat.jpg" },
             //GOW
