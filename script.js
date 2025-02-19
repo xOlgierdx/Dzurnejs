@@ -26,7 +26,7 @@ const cards = [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
             //DC
-            { name: "PAŃSTWO CZOP", image: "images/Mjh.jpg" },
+            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" },
             //GOW
             { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
             { name: "BALDUR", image: "images/Obal.jpg" },
@@ -53,7 +53,7 @@ const cards = [
         chance: 5, 
         subCards: [
             //MARVEL
-            { name: "BEST DUO", image: "images/OKws.jpg" },
+            { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
             //DC
             { name: "FATBAT", image: "images/Mfatbat.jpg" },
             //GOW
@@ -68,7 +68,7 @@ const cards = [
 let playerCollection = []; 
 let currentUser = null;
 let openCount = 0;
-const MAX_OPENS = 5;
+const MAX_OPENS = 500;
 
 function openBox() {
     const random = Math.random() * 100;
