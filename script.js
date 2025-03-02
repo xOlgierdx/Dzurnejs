@@ -15,7 +15,9 @@ const cards = [
             //GOW
             { name: "IRYTUJĄCY ŁEB", image: "images/Pmimir.jpg" },
             //WIEDŹMIN
-            { name: "UMA", image: "images/Suma.jpg" }
+            { name: "UMA", image: "images/Suma.jpg" },
+            //BLOODBORN
+            { name: "PLEBS II", image: "images/Pplebs.jpg" }
         ]
     },
     { 
@@ -44,7 +46,9 @@ const cards = [
             //DC
             { name: "FATBAT & POBIN", image: "images/MPbr.jpg" },
             //WIEDŻMIN
-            { name: "LAMBERT I ESKEL", image: "images/KSlamesk.jpg" }
+            { name: "LAMBERT I ESKEL", image: "images/KSlamesk.jpg" },
+            //BLOODBORN
+            { name: "LIGA TROPICIELI", image: "images/OKMliga.jpg" }
         ]
     },
     { 
@@ -60,7 +64,9 @@ const cards = [
             { name: "GOD OF HUNGER", image: "images/Mgoh.jpg" },
             //WIEDŻMIN
             { name: "OLGIERD", image: "images/Olgierd.jpg" },
-            { name: "CZOP Z WIEJSKIEJ", image: "images/Mgeralt.jpg" }
+            { name: "CZOP Z WIEJSKIEJ", image: "images/Mgeralt.jpg" },
+            //BLOODBORN
+            { name: "LADY ŚMIERTKA", image: "images/Suma.jpg" }
         ]
     }
 ];
