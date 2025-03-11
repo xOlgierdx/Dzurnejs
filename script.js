@@ -17,7 +17,11 @@ const cards = [
             //WIEDŹMIN
             { name: "UMA", image: "images/Suma.jpg" },
             //BLOODBORN
-            { name: "PLEBS II", image: "images/Pplebs.jpg" }
+            { name: "PLEBS II", image: "images/Pplebs.jpg" },
+            //HORIZON
+            { name: "OLGIEREND", image: "images/Oerend.jpg" },
+            { name: "KACPALO", image: "images/Kkotalo.jpg" },
+            { name: "PRADAWNY CZOP", image: "images/Mrost.jpg" }
         ]
     },
     { 
@@ -32,7 +36,9 @@ const cards = [
             //GOW
             { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
             { name: "BALDUR", image: "images/Obal.jpg" },
-            { name: "ATREUSEK", image: "images/Satr.jpg" }
+            { name: "ATREUSEK", image: "images/Satr.jpg" },
+            //HORIZON
+            { name: "ŚMIERTKOY", image: "images/Saloy.jpg" }
         ]
     },
     { 
@@ -74,7 +80,7 @@ const cards = [
 let playerCollection = []; 
 let currentUser = null;
 let openCount = 0;
-const MAX_OPENS = 7;
+const MAX_OPENS = 10;
 
 function openBox() {
     const random = Math.random() * 100;
