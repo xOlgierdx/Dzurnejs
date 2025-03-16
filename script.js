@@ -72,7 +72,7 @@ const cards = [
             { name: "OLGIERD", image: "images/Olgierd.jpg" },
             { name: "CZOP Z WIEJSKIEJ", image: "images/Mgeralt.jpg" },
             //BLOODBORN
-            { name: "LADY ŚMIERTKA", image: "images/Suma.jpg" }
+            { name: "LADY ŚMIERTKA", image: "images/Slady.jpg" }
         ]
     }
 ];
