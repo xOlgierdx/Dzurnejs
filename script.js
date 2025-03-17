@@ -2,7 +2,7 @@ const cards = [
     { 
         name: "Zwykła karta", 
         rarity: "common", 
-        chance: 50, 
+        chance: /*50*/5, 
         subCards: [
             //MARVEL
             { name: "MARCIN STARK", image: "images/Mstark.jpg" },
@@ -27,7 +27,7 @@ const cards = [
     { 
         name: "Rzadka karta", 
         rarity: "rare", 
-        chance: 30, 
+        chance: /*30*/5, 
         subCards: [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
@@ -44,7 +44,7 @@ const cards = [
     { 
         name: "Epicka karta", 
         rarity: "epic", 
-        chance: 15, 
+        chance: /*15*/5, 
         subCards: [
             //MARVEL
             { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
@@ -60,7 +60,7 @@ const cards = [
     { 
         name: "Legendarna karta", 
         rarity: "legendary", 
-        chance: 5, 
+        chance: /*5*/85, 
         subCards: [
             //MARVEL
             { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
@@ -80,7 +80,7 @@ const cards = [
 let playerCollection = []; 
 let currentUser = null;
 let openCount = 0;
-const MAX_OPENS = 10;
+const MAX_OPENS = 1000;
 
 function openBox() {
     const random = Math.random() * 100;
