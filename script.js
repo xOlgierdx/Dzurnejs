@@ -2,7 +2,7 @@ const cards = [
     { 
         name: "Zwykła karta", 
         rarity: "common", 
-        chance: /*50*/5, 
+        chance: 50, 
         subCards: [
             //MARVEL
             { name: "MARCIN STARK", image: "images/Mstark.jpg" },
@@ -27,7 +27,7 @@ const cards = [
     { 
         name: "Rzadka karta", 
         rarity: "rare", 
-        chance: /*30*/5, 
+        chance: 30, 
         subCards: [
             //MARVEL
             { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
@@ -44,7 +44,7 @@ const cards = [
     { 
         name: "Epicka karta", 
         rarity: "epic", 
-        chance: /*15*/5, 
+        chance: 15, 
         subCards: [
             //MARVEL
             { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
@@ -60,7 +60,7 @@ const cards = [
     { 
         name: "Legendarna karta", 
         rarity: "legendary", 
-        chance: /*5*/85, 
+        chance: 5, 
         subCards: [
             //MARVEL
             { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
@@ -125,8 +125,7 @@ function renderCollection() {
             sectionDiv.innerHTML += `
                 <div style="display: inline-block; margin: 10px; text-align: center;">
                     <img src="${card.image}" alt="${card.name}" style="width: 100px; height: auto;">
-                    <p>${card.name}</p>
-                    <button onclick="removeCard('${card.name}')" style="display: block; margin-top: 5px;">Usuń</button>
+                    <p>${card.name}</p> 
                 </div>
             `;
         });
