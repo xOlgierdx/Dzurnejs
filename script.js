@@ -127,6 +127,7 @@ function renderCollection() {
                 <div style="display: inline-block; margin: 10px; text-align: center;">
                     <img src="${card.image}" alt="${card.name}" style="width: 100px; height: auto;">
                     <p>${card.name}</p>
+                     <button onclick="removeCard(${index})" style="display: block; margin-top: 5px;">Usuń</button>
                 </div>
             `;
         });
@@ -135,6 +136,12 @@ function renderCollection() {
 
 function capitalize(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);
+}
+
+function removeCard(index) {
+    playerCollection.splice(index, 1); // Usuń kartę z kolekcji
+    saveProgress(); // Zapisz stan po usunięciu
+    renderCollection(); // Zaktualizuj widok kolekcji
 }
 
 function saveProgress() {
