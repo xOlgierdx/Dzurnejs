@@ -113,21 +113,20 @@ function renderCollection() {
     const rarities = ["legendary", "epic", "rare", "common"];
     rarities.forEach(rarity => {
         const collectedCards = playerCollection.filter(card => card.rarity === rarity);
-        const collectedCount = collectedCards.length;
         const totalCount = cards.find(card => card.rarity === rarity).subCards.length;
 
         collectionDiv.innerHTML += `
-            <h3>${capitalize(rarity)} karty (${collectedCount}/${totalCount})</h3>
+            <h3>${capitalize(rarity)} karty (${collectedCards.length}/${totalCount})</h3>
             <div id="section-${rarity}" style="display: flex; flex-wrap: wrap; margin-bottom: 20px;"></div>
         `;
 
         const sectionDiv = document.getElementById(`section-${rarity}`);
-        collectedCards.forEach(card => {
+        collectedCards.forEach((card, index) => { // Dodajemy index
             sectionDiv.innerHTML += `
                 <div style="display: inline-block; margin: 10px; text-align: center;">
                     <img src="${card.image}" alt="${card.name}" style="width: 100px; height: auto;">
                     <p>${card.name}</p>
-                     <button onclick="removeCard(${index})" style="display: block; margin-top: 5px;">Usuń</button>
+                    <button onclick="removeCard('${card.name}')" style="display: block; margin-top: 5px;">Usuń</button>
                 </div>
             `;
         });
@@ -138,10 +137,13 @@ function capitalize(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
-function removeCard(index) {
-    playerCollection.splice(index, 1); // Usuń kartę z kolekcji
-    saveProgress(); // Zapisz stan po usunięciu
-    renderCollection(); // Zaktualizuj widok kolekcji
+function removeCard(cardName) {
+    const cardIndex = playerCollection.findIndex(card => card.name === cardName);
+    if (cardIndex !== -1) {
+        playerCollection.splice(cardIndex, 1);
+        saveProgress();
+        renderCollection();
+    }
 }
 
 function saveProgress() {
