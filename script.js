@@ -5,13 +5,13 @@ const cards = [
         chance: 50, 
         subCards: [
             //MARVEL
-            { name: "MARCIN STARK", image: "images/Mstark.jpg" },
+        /* { name: "MARCIN STARK", image: "images/Mstark.jpg" },
             { name: "CZARNY WDOWIEC", image: "images/Swdowa.jpg" },
             { name: "MS. PLONEK", image: "images/Pmarvel.jpg" },
             //DC
             { name: "POBIN", image: "images/Ppobin.jpg" },
             { name: "HARLEY CZOP", image: "images/Mharley.jpg" },
-            { name: "CZOPER", image: "images/Mjoker.jpg" },
+            { name: "CZOPER", image: "images/Mjoker.jpg" },            */
             //GOW
             { name: "IRYTUJĄCY ŁEB", image: "images/Pmimir.jpg" },
             //WIEDŹMIN
@@ -21,7 +21,10 @@ const cards = [
             //HORIZON
             { name: "OLGIEREND", image: "images/Oerend.jpg" },
             { name: "KACPALO", image: "images/Kkotalo.jpg" },
-            { name: "PRADAWNY CZOP", image: "images/Mrost.jpg" }
+            { name: "PRADAWNY CZOP", image: "images/Mrost.jpg"},
+            //DE/DG/CON/INF
+            { name: "SZEDOWA", image: "images/Kjessie.jpg" },
+            { name: "NAPLETOBÓJCA", image: "images/Sdelsin.jpg" }
         ]
     },
     { 
@@ -30,15 +33,18 @@ const cards = [
         chance: 30, 
         subCards: [
             //MARVEL
-            { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
+        /*  { name: "PUNISHCZOP", image: "images/Mpunish.jpg" },
             //DC
-            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" },
+            { name: "CZOPER & HARLEY CZOP", image: "images/Mjh.jpg" }, */
             //GOW
             { name: "WSZECHOJCIEC", image: "images/Kodyn.jpg" },
             { name: "BALDUR", image: "images/Obal.jpg" },
             { name: "ATREUSEK", image: "images/Satr.jpg" },
             //HORIZON
-            { name: "ŚMIERTKOY", image: "images/Saloy.jpg" }
+            { name: "ŚMIERTKOY", image: "images/Saloy.jpg" },
+            //DE/DG/CON/INF
+            { name: "CZOPUZZER", image: "images/Mbuzzer.jpg" },
+            { name: "OLGIERD ST. JOHN", image: "images/Odecon.jpg" }
         ]
     },
     { 
@@ -47,14 +53,16 @@ const cards = [
         chance: 15, 
         subCards: [
             //MARVEL
-            { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
+    /*      { name: "DOCTOR STRANGE", image: "images/Kstrange.jpg" },
             { name: "SCARLET WITCH", image: "images/Owanda.jpg" },
             //DC
-            { name: "FATBAT & POBIN", image: "images/MPbr.jpg" },
+            { name: "FATBAT & POBIN", image: "images/MPbr.jpg" },       */
             //WIEDŻMIN
             { name: "LAMBERT I ESKEL", image: "images/KSlamesk.jpg" },
             //BLOODBORN
-            { name: "LIGA TROPICIELI", image: "images/OKMliga.jpg" }
+            { name: "LIGA TROPICIELI", image: "images/OKMliga.jpg" },
+            //DE/DG/CON/INF
+            { name: "CZOP RK800", image: "images/Mconor.jpg" }
         ]
     },
     { 
@@ -63,9 +71,9 @@ const cards = [
         chance: 5, 
         subCards: [
             //MARVEL
-            { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
+  /*      { name: "DOCTOR STRANGE & SCARLET WITCH", image: "images/OKws.jpg" },
             //DC
-            { name: "FATBAT", image: "images/Mfatbat.jpg" },
+            { name: "FATBAT", image: "images/Mfatbat.jpg" },                        */
             //GOW
             { name: "GOD OF HUNGER", image: "images/Mgoh.jpg" },
             //WIEDŻMIN
